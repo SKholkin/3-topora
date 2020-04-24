@@ -5,6 +5,7 @@ import datetime
 import requests
 
 
+
 class TestCalculationClass(unittest.TestCase):
 
     @mock.patch.object(Calculations, "get_corona_data_by_date",
